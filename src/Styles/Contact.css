@@ -4,7 +4,7 @@
     background-color: #f5f5f5;
   }
   
-  .contact h2 {
+  .section.contact h2 {
     font-size: 36px;
     margin-bottom: 30px;
     color: #333;
@@ -17,7 +17,7 @@
   }
   
   .contact a {
-    color: #0077b6; /* Nice blue color for links */
+    color: #333; /* Nice blue color for links */
     text-decoration: none;
   }
   

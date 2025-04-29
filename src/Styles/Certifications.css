@@ -1,39 +1,61 @@
 .certifications {
-    text-align: center;
-    padding: 80px 20px;
-    background-color: #f9f9f9;
-  }
-  
-  .certifications h2 {
-    font-size: 36px;
-    margin-bottom: 30px;
-    color: #333;
-  }
-  
-  .certifications ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .certifications li {
-    font-size: 18px;
-    margin-bottom: 15px;
-    color: #555;
-    padding: 10px;
-    background: #eaeaea;
-    border-radius: 8px;
-    max-width: 600px;
-    margin: 10px auto;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  }
-  
-  .certifications li:hover {
-    background: #d9d9d9;
-    transition: background 0.3s ease;
-  }
-  
-  .certifications li::before {
-    content: "🎓 ";
-    font-size: 20px;
-  }
-  
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #fff;
+  border-radius: 18px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.certifications h2 {
+  font-size: 36px;
+  margin-bottom: 50px;
+  color: #333;
+}
+
+.certifications-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.cert-card {
+  background-color: #fff;
+  width: 300px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  text-align: left;
+}
+
+.cert-card:hover {
+  transform: translateY(-10px);
+}
+
+
+.cert-card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.cert-card p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.cert-card a {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #0077b6;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.cert-card a:hover {
+  background-color: #005f8a;
+}

@@ -26,6 +26,8 @@ body {
   padding: 20px 40px;
   border-radius: 10px;
   flex-wrap: wrap;
+  margin-bottom: 30px;
+  
 }
 
 .logo {

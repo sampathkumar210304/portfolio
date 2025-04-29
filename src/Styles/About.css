@@ -1,10 +1,11 @@
 .about {
     text-align: center;
-    padding: 80px 20px;
+    padding: 60px 20px;
     background-color: #fff;
+    height: 100vh;
   }
   
-  .about h2 {
+  .section.about h2 {
     font-size: 36px;
     margin-bottom: 30px;
     color: #333;
@@ -21,4 +22,78 @@
   .about p:last-child {
     margin-bottom: 0;
   }
+
+  .section.about {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .about-content h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #222;
+  }
+  
+  .about-content p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 40px;
+  }
+  
+  .section.about {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .about-content h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #222;
+  }
+  
+  .about-content p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 40px;
+  }
+  
+  .skills h3 {
+    font-size: 2.3rem;
+    margin-bottom: 10px;
+    color: #222;
+  }
+  
+  .skills-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .skills-box span {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  }
+  
+  
+  
   
