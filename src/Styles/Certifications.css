@@ -33,7 +33,6 @@
   transform: translateY(-10px);
 }
 
-
 .cert-card h3 {
   font-size: 20px;
   margin-bottom: 10px;
@@ -58,4 +57,58 @@
 
 .cert-card a:hover {
   background-color: #005f8a;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .certifications {
+    padding: 40px 15px;
+  }
+  
+  .certifications h2 {
+    font-size: 30px;
+    margin-bottom: 40px;
+  }
+  
+  .certifications-grid {
+    gap: 15px;
+  }
+  
+  .cert-card {
+    width: calc(50% - 15px);
+    min-width: 250px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .certifications {
+    padding: 30px 10px;
+  }
+  
+  .certifications h2 {
+    font-size: 26px;
+    margin-bottom: 30px;
+  }
+  
+  .certifications-grid {
+    gap: 10px;
+  }
+  
+  .cert-card {
+    width: 100%;
+    min-width: auto;
+  }
+  
+  .cert-card h3 {
+    font-size: 18px;
+  }
+  
+  .cert-card p {
+    font-size: 14px;
+  }
+  
+  .cert-card a {
+    padding: 8px 12px;
+    font-size: 13px;
+  }
 }
