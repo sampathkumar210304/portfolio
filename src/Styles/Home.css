@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center; /* Center vertically */
   align-items: center;      /* Center horizontally */
-  height: 50vh;            /* Full screen height */
+  height: 60vh;            /* Full screen height */
   background-image: linear-gradient(to right, #ffffff, #ffffff);
   text-align: center;
 }
@@ -51,6 +51,7 @@
 
 .resume-button {
   display: inline-block;
+  margin-top: 20px;
   padding: 10px 20px;
   background-color: #1b1919;
   color: white;
@@ -158,4 +159,6 @@
     padding: 8px 16px;
     font-size: 14px;
   }
+}
+
   
