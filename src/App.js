@@ -14,9 +14,9 @@ function App() {
           <div className="logo">Dheekonda Sampath Kumar</div>
           <div className="nav-links">
             <Link to="/">Home</Link>
-            <Link to="/projects">Projects</Link>
-            <Link to="/certifications">Certifications</Link>
             <Link to="/about">About</Link>
+            <Link to="/Projects">Projects</Link>
+            <Link to="/Certifications">Certifications</Link>
             <Link to="/contact">Contact</Link>
           </div>
         </nav>

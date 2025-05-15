@@ -7,7 +7,7 @@ function Home() {
       <p className="typing-effect">Artificial Intelligence Student | Web Developer</p>
 
       {/* Resume Download Button */}
-      <a href="/resume.pdf" download className="resume-button">
+      <a href="/SampathResume.pdf" download className="resume-button">
         Download Resume
       </a>
     </section>

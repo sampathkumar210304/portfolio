@@ -16,10 +16,10 @@ function About() {
         <div className="skills">
           <h3>Skills</h3>
           <div className="skills-box">
-         <span> <strong>Programming Languages:</strong> Python, JavaScript,C</span>
+         <span> <strong>Programming Languages:</strong> Python,Java,JavaScript,C</span>
          <span> <strong>Framework:</strong> React JS</span>
-         <span> <strong>Tools:</strong> Visual Studio Code, GitHub</span>
-         <span> <strong>Other:</strong>HTML,CSS,JS</span>
+         <span> <strong>Tools:</strong> Visual Studio Code, GitHub,MS Office</span>
+         <span> <strong>Other:</strong>HTML,CSS</span>
           </div>
         </div>
       </section>
