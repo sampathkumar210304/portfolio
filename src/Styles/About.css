@@ -2,7 +2,7 @@
   text-align: center;
   padding: 60px 20px;
   background-color: #fff;
-  height: 100vh;
+  height: 170vh;
 }
 
 .section.about h2 {
@@ -129,7 +129,7 @@
   }
   
   .skills-box {
-    gap: 8px;
+    gap: 10px;
   }
   
   .skills-box span {
@@ -179,3 +179,23 @@
     font-size: 0.85rem;
   }
 }
+
+.education {
+  margin-top: 40px;
+  text-align: left;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.education h3 {
+  font-size: 2.3rem;
+  margin-bottom: 15px;
+  color: #222;
+}
+
+.education ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+

@@ -13,6 +13,22 @@ function About() {
           Apart from coding, I have a strong interest in building creative web applications that are user-friendly 
           and impactful. I'm always eager to learn new technologies and contribute to meaningful projects.
         </p>
+        <div className="education">
+    <h3>Education</h3>
+    <ul>
+      <p>
+        <strong>B.Tech – Artificial Intelligence</strong><br />
+        Swami Vivekananda Institute of Technology<br />
+        2021 – 2025
+        </p>
+      
+      <p>
+        <strong>Intermediate – MPC</strong><br />
+        Sri Chaitanya Junior College<br />
+        2019 – 2021
+        </p>
+    </ul>
+  </div>
         <div className="skills">
           <h3>Skills</h3>
           <div className="skills-box">
