@@ -39,7 +39,7 @@ const certifications = [
   {
     title: "Java for Beginners",
     description: "Java for Beginners introduces the fundamentals of Java programming, covering basic syntax, object-oriented concepts, data types, loops, and functions..",
-    link: "Java For Beginners_page-0001.jpg"
+    link: "/Certifications/Java For Beginners_page-0001.jpg"
   },
 ];
 

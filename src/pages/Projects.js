@@ -3,8 +3,8 @@ import '../Styles/Projects.css';
 const projects = [
   {
     title: "Robot Jokes Generator",
-    description: "Displays random robot-themed jokes using HTML, CSS, JavaScript.", // Replace with your project image
-    link: "https://your-project-link.com"
+    description: "Displays random robot-themed jokes using HTML, CSS, JavaScript.", 
+    link: "https://robot-jokes-generator.vercel.app/"
   },
   {
     title: "Speech to Text App",
