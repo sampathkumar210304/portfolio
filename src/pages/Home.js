@@ -4,22 +4,22 @@ function Home() {
   const navItems = [
     {
       label: 'Projects',
-      href: '#projects',
-      description: 'Browse a showcase of my React and JavaScript projects.'
+      href: '/projects',
+      description: 'Browse a showcase of my React and JavaScript projects.',
     },
     {
       label: 'Certifications',
-      href: '#certifications',
+      href: '/certifications',
       description: 'See the courses and programs I’ve completed from Coursera, Udemy, and more.'
     },
     {
       label: 'About',
-      href: '#about',
+      href: '/about',
       description: 'Learn more about me and my journey into tech.'
     },
     {
       label: 'Contact',
-      href: '#contact',
+      href: '/contact',
       description: 'Let’s connect through email, phone, or LinkedIn.'
     }
   ];

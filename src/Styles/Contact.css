@@ -58,3 +58,8 @@
 .contact-form button:hover {
   background-color: rgb(131, 131, 164);
 }
+
+#contact h2{
+  color: #333;
+  margin-bottom: 0;
+}

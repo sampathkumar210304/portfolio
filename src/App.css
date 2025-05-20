@@ -145,3 +145,38 @@ body {
     font-size: 1.5rem;
   }
 }
+/* Hide nav links by default on mobile */
+@media screen and (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+  
+  .nav-links.active {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Hamburger menu button */
+  .hamburger {
+    display: block;
+    cursor: pointer;
+    width: 25px;
+    height: 20px;
+    position: relative;
+    margin-left: auto;
+  }
+
+  .hamburger div {
+    background-color: #fff;
+    height: 3px;
+    margin: 4px 0;
+    border-radius: 2px;
+  }
+}
+
+/* Hide hamburger on desktop */
+@media screen and (min-width: 769px) {
+  .hamburger {
+    display: none;
+  }
+}

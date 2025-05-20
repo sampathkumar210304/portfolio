@@ -72,3 +72,8 @@ html {
     border-color: transparent;
   }
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
